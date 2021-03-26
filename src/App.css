@@ -114,8 +114,10 @@ header{
   background-color: orange;
 }
 
-
 /* MENU SCROLL */
+.tabs{
+  margin: 20px 0;
+}
 .scrollmenu {
   overflow: auto;
   white-space: nowrap;
@@ -129,11 +131,47 @@ header{
   cursor: pointer;
   color: #777;
   text-align: center;
-  padding: 14px;
+  padding: 10px;
   text-decoration: none;
 }
-
 .scrollmenu a:hover {
   font-weight: 600;
   color: #2d2d2D;
+}
+/* Card */
+.card{
+  box-shadow: 4px 8px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  margin: 0.75rem 1rem;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.left{
+  display: flex;
+}
+.thumbnail{
+  width: 80px;
+  height: 80px;
+}
+.thumbnail img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.description p{
+  line-height: 25px;
+  margin: 0 10px;
+}
+.description .title{
+  font-weight: 600;
+}
+.description .price{
+  color: orange;
+  font-weight: 600;
+}
+.description .total{
+  font-size: 12px;
+  opacity: 0.5;
 }

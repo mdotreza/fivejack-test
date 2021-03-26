@@ -2,8 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Carousel from './components/CarouselComponent';
 import Menu from './components/menu/MenuComponent';
+import Tabs from './components/tabs/TabsComponent';
 
-function App() {
+function App(props) {
   return (
 <div className="app" style={{ maxWidth: 480, marginLeft: 'auto', marginRight: 'auto'}}>
             <header>
@@ -16,7 +17,7 @@ function App() {
               </div>
             </header>
             <Carousel/>
-            <Menu/>
+            <Tabs/>
         </div>
   );
 }

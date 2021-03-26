@@ -69,16 +69,16 @@ const Carousel = (props) => {
         <div className="carousel-container">      
             <div class="slide-container">   
             <div class="slide fade">
-                <img src={require('../assets/images/1.jpg').default} alt="placeholder" style={{width: '100%'}} />
+                <img src={require('../assets/images/1.jpeg').default} alt="placeholder" style={{width: '100%'}} />
               </div>
               <div class="slide fade">
-                <img src={require('../assets/images/2.jpg').default} alt="placeholder" style={{width: '100%'}} />
+                <img src={require('../assets/images/2.jpeg').default} alt="placeholder" style={{width: '100%'}} />
               </div>
               <div class="slide fade">
-                <img src={require('../assets/images/3.jpg').default} alt="placeholder" style={{width: '100%'}} />
+                <img src={require('../assets/images/5.jpeg').default} alt="placeholder" style={{width: '100%'}} />
               </div>
               <div class="slide fade">
-                <img src={require('../assets/images/4.jpg').default} alt="placeholder" style={{width: '100%'}} />
+                <img src={require('../assets/images/4.jpeg').default} alt="placeholder" style={{width: '100%'}} />
               </div>
             </div>
             <div class="dots-container">
